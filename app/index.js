@@ -2,8 +2,9 @@ import clock from "clock";
 import * as document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
+import { me as device } from "device";
 
-var weekdays = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"]
+var weekdays = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
 // Update the clock every second
 clock.granularity = "seconds";
@@ -13,6 +14,8 @@ const hoursmins = document.getElementById("hoursmins");
 const seconds = document.getElementById("seconds");
 const ampm = document.getElementById("ampm");
 const day = document.getElementById("day");
+const model = document.getElementById("model");
+model.text = `${device.modelName.toUpperCase()}`;
 
 // Update the <text> element every tick with the current time
 clock.ontick = (evt) => {

@@ -41,3 +41,13 @@
   y: 154;
   fill: black;
 }
+
+#model {
+  font-size: 22;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 270;
+  y: 64;
+  fill: #f3de7e;
+}
