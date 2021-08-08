@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~6.0.0"
+  },
+  "fitbit": {
+    "appUUID": "f5ab5c7f-2e01-49e3-a92e-20996bb3d10a",
+    "appType": "clockface",
+    "appDisplayName": "Cassiopeia",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Cassiopeia"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

@@ -1,0 +1,43 @@
+.background {
+  viewport-fill: red;
+}
+
+#hoursmins {
+  font-size: 74;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 228;
+  y: 222;
+  fill: black;
+}
+
+#seconds {
+  font-size: 52;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: start;
+  x: 230;
+  y: 222;
+  fill: black;
+}
+
+#ampm {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: end;
+  x: 282;
+  y: 180;
+  fill: black;
+}
+
+#day {
+  font-size: 40;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 168;
+  y: 154;
+  fill: black;
+}

@@ -1,0 +1,7 @@
+<svg class="background">
+  <image href="bg.png" />
+  <text id="hoursmins" />
+  <text id="seconds" />
+  <text id="ampm" />
+  <text id="day" />
+</svg>
