@@ -28,7 +28,7 @@ clock.ontick = (evt) => {
       ap = "AM";
       } else {
       ap = "PM";
-    }
+    }hy
     hours = util.monoDigits(hours % 12 || 12);
   } else {
     // 24h format
@@ -47,4 +47,4 @@ clock.ontick = (evt) => {
   seconds.text = `${secs}`;
   ampm.text = `${ap}`;
   day.text = `${weekday}  ${month} ${date}`;
-}
+}coulor
